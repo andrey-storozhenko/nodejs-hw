@@ -22,7 +22,6 @@ app.use(notFoundHandler);
 
 app.use(errorHandler);
 
-
 await connectMongoDB();
 
 app.listen(PORT, () => {
