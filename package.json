@@ -15,7 +15,7 @@
   "keywords": [],
   "author": "Andrii Storozhenko <andreystorozhenko123456@gmail.com>",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/andrey-storozhenko/nodejs-hw/issues"
   },
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "cors": "^2.8.6",
+    "express": "^5.2.1",
     "pino-http": "^11.0.0",
     "pino-pretty": "^13.1.3"
   }
