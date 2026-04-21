@@ -26,12 +26,12 @@ export const setSessionCookies = (res, session) => {
     httpOnly: true,
     secure: true,
     sameSite: 'none',
-    maxAge: FIFTEEN_MINUTES,
+    maxAge: ONE_DAY,
   });
   res.cookie('sessionId', session._id, {
     httpOnly: true,
     secure: true,
     sameSite: 'none',
-    maxAge: FIFTEEN_MINUTES,
+    maxAge: ONE_DAY,
   });
 };
